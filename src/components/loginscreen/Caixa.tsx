@@ -1,25 +1,14 @@
 
 
 function Caixa() {
-/*return(
-<div className="LoginBox">
-    <div className="LoginTitle">Bem Vindo</div>
-    <form>
-    <div>Email</div>
-    <input type="text"></input>
-    <div>Senha</div>
-    <input type="text"></input>
-    </form>
-</div>
-)*/
 
 return(
 <div className="LoginBox">
-    <h1 className="LoginTitle">Bem Vindo</h1>
+    <h1>Bem Vindo</h1>
     <form>
         <div>
             <div>Email</div>
-            <input 
+            <input
             type="text"
             placeholder="Digite seu email"/>
         </div>
@@ -30,7 +19,7 @@ return(
             placeholder="Digite sua senha"/>
         </div>
         <div>
-            <input type="submit" value="Login"/>
+            <button id="LogButton" type="submit">Login</button>
         </div>
     </form>
 </div>
