@@ -32,5 +32,50 @@ flex-direction: column;
   width: 360px;
   height: 50px;
   border-radius: 15px;
-  margin-top: 160px;
+  position:absolute;
+  top: 300px;
+  left: 60px;
 }
+ .senha{
+box-sizing: border-box;
+
+position: absolute;
+height: 40px;
+left: 60px;
+right: 60px;
+top: 200px;
+
+border: 1px solid #D6D9DE;
+border-radius: 9px;
+ }
+
+ .senhaLabel{
+  position: absolute;
+height: 40px;
+left: -234px;
+right: 60px;
+top: 85px;
+ }
+
+.email{
+
+box-sizing: border-box;
+
+position: absolute;
+height: 40px;
+left: 60px;
+right: 60px;
+top: 115px;
+
+border: 1px solid #D6D9DE;
+border-radius: 9px;
+
+ }
+
+ .emailLabel{
+  position: absolute;
+height: 40px;
+left: -234px;
+right: 60px;
+top: 170px;
+ }
