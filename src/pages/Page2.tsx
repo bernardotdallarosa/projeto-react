@@ -1,6 +1,13 @@
+import NavBar from "../components/clients/NavBar"
+import Search from "../components/clients/Search"
+
 function Page2(){
 return(
-<div>Po</div>
+<>
+<NavBar />
+<Search />
+<div className="nameIcon">RU</div>
+</>
 )
 
 }

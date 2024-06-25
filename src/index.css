@@ -1,3 +1,5 @@
+/*Page 1*/
+
 .LoginBG{
   background-image: url("background.jpg");
   position: fixed; 
@@ -38,7 +40,7 @@ flex-direction: column;
 }
  .senha{
 box-sizing: border-box;
-
+width: 360px;
 position: absolute;
 height: 40px;
 left: 60px;
@@ -49,18 +51,17 @@ border: 1px solid #D6D9DE;
 border-radius: 9px;
  }
 
- .senhaLabel{
+ .emailLabel{
   position: absolute;
-height: 40px;
-left: -234px;
-right: 60px;
-top: 85px;
+  height: 40px;
+  left: -244px;
+  right: 60px;
+  top: 180px;
  }
 
 .email{
-
 box-sizing: border-box;
-
+width: 360px;
 position: absolute;
 height: 40px;
 left: 60px;
@@ -72,10 +73,108 @@ border-radius: 9px;
 
  }
 
- .emailLabel{
-  position: absolute;
+ .senhaLabel{
+
+position: absolute;
 height: 40px;
-left: -234px;
+left: -244px;
 right: 60px;
-top: 170px;
+top: 95px;
+ }
+
+ .emailIcon{
+position:absolute;
+height: 40px;
+left: 40px;
+right: 60px;
+top: 115px;
+ }
+
+ .senhaIcon{
+  position:absolute;
+  height: 40px;
+left: 40px;
+right: 60px;
+top: 200px;
+
+ }
+
+ /*Page 2*/
+
+ .navBody{
+
+position: absolute;
+width: 80px;
+left: 0px;
+top: 0px;
+bottom: -62px;
+
+background: #FFFFFF;
+box-shadow: rgba(222, 234, 247, 1) 15px 15px 15px;
+ }
+
+.navRect{
+
+width: 2px;
+height: 40px;
+
+background: linear-gradient(180deg, rgba(238, 236, 250, 0) 0%, #F9F9F9 51.44%, rgba(238, 236, 250, 0) 100%);
+border-radius: 18px;
+transform: rotate(90deg);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+ .usersBox{
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2px;
+gap: 8px;
+color:white;
+position: absolute;
+width: 54px;
+height: 54px;
+left: calc(50% - 54px/2);
+top: 13px;
+
+background: rgb(77, 49, 71);
+border-radius: 15px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+ }
+ .nameIcon{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ color: white;
+ background-color: rgb(77, 49, 71);
+ }
+
+ .searchBar{
+  position: absolute;
+  box-sizing: border-box;
+width: 360px;
+height: 40px;
+left: 330px;
+top: 133px;
+
+border: 1px solid #D6D9DE;
+border-radius: 9px;
+ }
+
+ .magGlass{
+  color: rgb(138, 138, 142);
+  width: 30px;
+  height: 30px;
+  position:absolute;
+height: 40px;
+left: 290px;
+top: 133px;
  }

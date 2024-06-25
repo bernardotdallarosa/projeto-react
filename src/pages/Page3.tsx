@@ -1,6 +1,10 @@
+import NavBar from "../components/clients/NavBar"
+
 function Page3() {
 return(
-<div>Pu</div>
+<>
+<NavBar />
+</>
 )
 
 }
