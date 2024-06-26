@@ -16,7 +16,7 @@ function App() {
     <Routes>
         <Route path="/" element={<Page1 />} />
         <Route path="/clients" element={<Page2 />} />
-        <Route path="/client/" element={<Page3 />} />
+        <Route path="/client/:id" element={<Page3 />} />
         <Route path="*" element={<Navigate to={"/"} />} />
 
     </Routes>

@@ -1,0 +1,13 @@
+
+
+.info{
+    border: 1px solid #D6D9DE;
+    width: 390px;
+    height: 45px;
+}
+
+.infoDisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

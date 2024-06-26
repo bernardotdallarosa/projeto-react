@@ -2,8 +2,9 @@ import { CiMail } from "react-icons/ci";
 import { CiLock } from "react-icons/ci";
 
 function CampoForm(){
+    const toClients = () => {window.location.href = `/clients`;
+    }
 return (
-    <>
 <div>
             <div>
                 <label className="senhaLabel">Email</label>
@@ -21,9 +22,8 @@ return (
             type="password"
             placeholder="Digite sua senha"/>
             </div>
-            <button id="LogButton" type="submit">Login</button>
+            <button className="logButton" type="submit" onClick={toClients}>Login</button>
      </div>
-        </>
 )
 
 
