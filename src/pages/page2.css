@@ -1,0 +1,111 @@
+/*Page 2*/
+
+.navBody{
+
+    position: absolute;
+    width: 80px;
+    left: 0px;
+    top: 0px;
+    bottom: -62px;
+    
+    background: #FFFFFF;
+    box-shadow: rgba(222, 234, 247, 1) 15px 15px 15px;
+     }
+    
+    .navRect{
+    
+    width: 2px;
+    height: 40px;
+    
+    background: linear-gradient(180deg, rgba(238, 236, 250, 0) 0%, #F9F9F9 51.44%, rgba(238, 236, 250, 0) 100%);
+    border-radius: 18px;
+    transform: rotate(90deg);
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    }
+    
+     .usersBox{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 8px;
+    color:white;
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: calc(50% - 54px/2);
+    top: 13px;
+    transition: transform 0.3s ease-in-out;
+    background: rgb(77, 49, 71);
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+     }
+     .usersBox:hover{
+        transform:scale(1.1);
+     }
+    
+     .searchBar{
+      position: absolute;
+      box-sizing: border-box;
+    width: 360px;
+    height: 45px;
+    left: 330px;
+    top: 130px;
+    border: 1px solid #D6D9DE;
+    border-radius: 9px;
+     }
+    
+     .magGlass{
+      color: rgb(138, 138, 142);
+      width: 30px;
+      height: 30px;
+      position:absolute;
+    height: 40px;
+    left: 290px;
+    top: 133px;
+     }
+    
+    .cardDisplay{
+        display: flex;
+        flex-direction: row;
+        padding-left: 130px;
+        padding-top: 200px;
+        flex-wrap:wrap;
+    }
+
+    .cardBody{
+    width: 212px;
+    height: 273px;
+    margin: 25px;
+    background: rgb(250, 250, 250);
+    border-radius: 8.10526px;
+    transition: transform 0.3s ease-in-out;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .cardBody:hover{
+        transform: scale(1.15);
+    }
+    .cardBody:focus{
+        outline: none;
+    }
+
+    .nameIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       width: 50px;
+       height: 50px;
+       font-size: 26px;
+       border-radius: 50%;
+       color: rgb(255, 255, 255);
+       background-color: rgb(77, 49, 71);
+       }
