@@ -7,20 +7,31 @@
     left: 0px;
     top: 0px;
     bottom: -62px;
+    display:flex;
+    flex-direction: column;
     
     background: #FFFFFF;
     box-shadow: rgba(222, 234, 247, 1) 15px 15px 15px;
      }
-    
+
+     .customIcon{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 16px;
+        top: 14px;
+     }
+
     .navRect{
     
     width: 2px;
-    height: 40px;
+    height: 50px;
     
-    background: linear-gradient(180deg, rgba(238, 236, 250, 0) 0%, #F9F9F9 51.44%, rgba(238, 236, 250, 0) 100%);
-    border-radius: 18px;
+    background: rgb(209, 194, 194);
     transform: rotate(90deg);
-    
+    position: absolute;
+    left: 40px;
+    top: 55px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -39,7 +50,7 @@
     width: 59px;
     height: 59px;
     left: calc(50% - 54px/2);
-    top: 13px;
+    top: 90px;
     transition: transform 0.3s ease-in-out;
     background: rgb(77, 49, 71);
     border-radius: 15px;
@@ -91,6 +102,7 @@
     justify-content:center;
     align-items: center;
     display: flex;
+    gap: 19px;
     flex-direction: column;
     border:none;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -127,4 +139,15 @@
     .iconsBox{
         display: flex;
         flex-direction: row;
+        gap: 8px;
+    }
+
+    .downIcons{
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    .iconSize{
+        font-size: large;
     }
