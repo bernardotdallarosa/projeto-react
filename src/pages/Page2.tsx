@@ -5,8 +5,6 @@ import Card from "../components/clients/Card"
 import { Database } from '../sprint4mock.ts'
 
 function Page2(){
-
-    console.log(Database)
 return(
 <>
 <NavBar />
@@ -15,7 +13,7 @@ return(
     {
         Database.map((e) => {
             console.log(e)
-            return <Card name={e.name} />
+            return <Card name={e.name} recurrence={e.recurrence} id={e.id} />
         })
     }
 </div>
